@@ -1,0 +1,40 @@
+Paso 1: Realiza tus cambios
+Haz los cambios necesarios en los archivos del repositorio clonado en tu máquina local. 
+Puedes editar archivos, agregar nuevos archivos o eliminar archivos, según lo que necesites hacer.
+
+Paso 2: Añade los cambios al área de preparación
+Usa el comando "git add" para agregar los cambios realizados al área de preparación. 
+Puedes agregar todos los cambios con el siguiente comando:
+
+"git add"
+
+Esto agregará todos los cambios realizados en la carpeta clonada al área de preparación.
+Si solo deseas agregar cambios en archivos específicos, 
+puedes usar "git add nombre-de-archivo" para agregarlos individualmente.
+
+Paso 3: Crea un commit
+
+Una vez que hayas agregado los cambios al área de preparación, 
+puedes crear un commit con el comando git commit. 
+Puedes incluir un mensaje descriptivo para el commit que explique los cambios realizados. 
+Por ejemplo:
+
+git commit -m "Mensaje descriptivo del commit"
+
+Reemplaza "Mensaje descriptivo del commit" con un mensaje 
+que describa los cambios realizados en el commit de manera clara y concisa.
+
+Paso 4: Envía el commit al repositorio remoto
+Finalmente, puedes enviar el commit al repositorio remoto en GitHub utilizando el comando git push.
+Por ejemplo:
+
+git push origin nombre-de-rama
+
+Reemplaza "nombre-de-rama" con el nombre de la rama en la que deseas enviar el commit. 
+Si estás trabajando en la rama principal del repositorio, generalmente llamada "main" o "master", 
+puedes usar ese nombre de rama.
+
+¡Y eso es todo! 
+Ahora habrás realizado un commit con los cambios en tu repositorio clonado 
+y los habrás enviado al repositorio remoto en GitHub. 
+Otros colaboradores del repositorio podrán ver tus cambios y revisarlos en GitHub.
